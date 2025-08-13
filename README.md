@@ -19,3 +19,8 @@ If you don't know how to apply any of this, don't.
 ### Policies
 
 Policies are provided as a Windows registry file that sets the policies for the whole machine (i.e. under `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge`).
+
+### Flags
+
+Set flags in the browser under `edge://flags`:
+- `use-angle`: Set to `D3D11on12`, because the default causes some issues with hardware acceleration (e.g. a long blank screen on browser startup).
