@@ -21,6 +21,7 @@ For policies to properly apply restarting your PC might be necessary.
 ### Policies
 
 Policies are provided as a Windows registry file that sets the policies for the whole machine (i.e. under `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge`).
+See [policies.reg](./policies.reg).
 
 ### Flags
 
