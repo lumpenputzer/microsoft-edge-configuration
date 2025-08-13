@@ -13,3 +13,9 @@ or I can't see myself ever wanting to toggle it (e.g. `ShowMicrosoftRewards`) I 
 ## Usage
 
 If you don't know how to apply any of this, don't.
+
+## Content
+
+### Policies
+
+Policies are provided as a Windows registry file that sets the policies for the whole machine (i.e. under `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge`).
