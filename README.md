@@ -23,7 +23,13 @@ For policies to properly apply restarting your PC might be necessary.
 Policies are provided as a Windows registry file that sets the policies for the whole machine (i.e. under `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge`).
 See [policies.reg](./policies.reg).
 
+Check applied policies from within edge under `edge://policy`.
+
 ### Flags
 
 Set flags in the browser under `edge://flags`:
 - `use-angle`: Set to `D3D11on12`, because the default causes some issues with hardware acceleration (e.g. a long blank screen on browser startup).
+
+## References
+
+- [Microsoft Edge Policy Documentation](https://learn.microsoft.com/deployedge/microsoft-edge-policies)
