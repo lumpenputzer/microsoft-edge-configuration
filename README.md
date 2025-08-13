@@ -14,6 +14,8 @@ or I can't see myself ever wanting to toggle it (e.g. `ShowMicrosoftRewards`) I 
 
 If you don't know how to apply any of this, don't.
 
+For policies to properly apply restarting your PC might be necessary.
+
 ## Content
 
 ### Policies
