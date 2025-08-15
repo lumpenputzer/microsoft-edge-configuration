@@ -2,7 +2,7 @@
 
 Collection of config options, flags and policies for Microsoft Edge.
 
-Based on [RKNF's Chromium Hardening Guide](https://github.com/RKNF404/chromium-hardening-guide), [TommyTran732's Edge Policies](https://github.com/TommyTran732/Microsoft-Edge-Policies) 
+Based on [RKNF's Chromium Hardening Guide](https://github.com/RKNF404/chromium-hardening-guide), [TommyTran732's Edge Policies](https://github.com/TommyTran732/Microsoft-Edge-Policies)
 and Edge policies set by [HotCakeX' Harden Windows Security](https://github.com/HotCakeX/Harden-Windows-Security).
 Tailored to my personal requirements and preferences.
 
@@ -32,4 +32,5 @@ Set flags in the browser under `edge://flags`:
 
 ## References
 
+- [Microsoft Edge Stable Channel Release Notes](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel)
 - [Microsoft Edge Policy Documentation](https://learn.microsoft.com/deployedge/microsoft-edge-policies)
