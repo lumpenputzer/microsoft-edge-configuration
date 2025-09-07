@@ -11,6 +11,8 @@ why most policies are set as recommended (if possible), not mandatory.
 However, if a setting can't be configured in the browser (e.g. `DiagnosticData` can't be turned of completely in the browser settings, but can be as a policy)
 or I can't see myself ever wanting to toggle it (e.g. `ShowMicrosoftRewards`) I will set it as mandatory.
 
+Up to date for `Microsoft Edge Version 140.0.3485.54: September 5, 2025`
+
 ## Usage
 
 If you don't know how to apply any of this, don't.
