@@ -33,6 +33,10 @@ Check applied policies from within edge under `edge://policy`.
 Set flags in the browser under `edge://flags`:
 - `use-angle`: Set to `D3D11on12`, because the default causes some issues with hardware acceleration (e.g. a long blank screen on browser startup).
 
+### Additional
+
+Blocking connections to `ntp.msn.com` (the new tab page used in Edge) e.g. via a DNS-block in PiHole or similar forces Edge into loading the offline variant of the new tab page.
+
 ## References
 
 - [Microsoft Edge Stable Channel Release Notes](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel)
