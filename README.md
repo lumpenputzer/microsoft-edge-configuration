@@ -31,7 +31,14 @@ Check applied policies from within edge under `edge://policy`.
 ### Flags
 
 Set flags in the browser under `edge://flags`:
-- `use-angle`: Set to `D3D11on12`, because the default causes some issues with hardware acceleration (e.g. a long blank screen on browser startup).
+- ~`use-angle`: Set to `D3D11on12`, because the default causes some issues with hardware acceleration (e.g. a long blank screen on browser startup).~
+  <details><summary>Under investigation.</summary>
+
+  This option for the flag has been removed. Set to default for now, while I investigate alternatives.
+
+  Might just need to accept the blank screen on startup for the future. Maybe that's a symptom of GPU process isolation (e.g. because of necessary setup) ?
+
+  Possible work-around: Activate Edge's Startup-Boost
 
 ### Additional
 
