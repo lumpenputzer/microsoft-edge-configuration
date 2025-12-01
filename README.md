@@ -47,4 +47,4 @@ Blocking connections to `ntp.msn.com` (the new tab page used in Edge) e.g. via a
 ## References
 
 - [Microsoft Edge Stable Channel Release Notes](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel)
-- [Microsoft Edge Policy Documentation](https://learn.microsoft.com/deployedge/microsoft-edge-policies)
+- [Microsoft Edge Policy Documentation](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)
