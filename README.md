@@ -42,7 +42,9 @@ Set flags in the browser under `edge://flags`:
 
 ### Additional
 
-Blocking connections to `ntp.msn.com` (the new tab page used in Edge) e.g. via a DNS-block in PiHole or similar forces Edge into loading the offline variant of the new tab page.
+- Blocking connections to `ntp.msn.com` (the new tab page used in Edge) e.g. via a DNS-block in PiHole or similar forces Edge into loading the offline variant of the new tab page.
+- Hardware Acceleration does not work sometimes. You can check the status under `edge://gpu`. A possible workaround is setting the flag `use-angle` (see above) to different values; `D3D11 WARP` seems to work.
+  See <https://www.reddit.com/r/MicrosoftEdge/comments/1o2r1i2/edge_hardware_acceleration_not_working/>
 
 ## References
 
