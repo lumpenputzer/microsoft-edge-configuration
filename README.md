@@ -31,20 +31,11 @@ Check applied policies from within edge under `edge://policy`.
 ### Flags
 
 Set flags in the browser under `edge://flags`:
-- ~`use-angle`: Set to `D3D11on12`, because the default causes some issues with hardware acceleration (e.g. a long blank screen on browser startup).~
-  <details><summary>Under investigation.</summary>
-
-  This option for the flag has been removed. Set to default for now, while I investigate alternatives.
-
-  Might just need to accept the blank screen on startup for the future. Maybe that's a symptom of GPU process isolation (e.g. because of necessary setup) ?
-
-  Possible work-around: Activate Edge's Startup-Boost
+- None so far
 
 ### Additional
 
 - Blocking connections to `ntp.msn.com` (the new tab page used in Edge) e.g. via a DNS-block in PiHole or similar forces Edge into loading the offline variant of the new tab page.
-- Hardware Acceleration does not work sometimes. You can check the status under `edge://gpu`. A possible workaround is setting the flag `use-angle` (see above) to different values; `D3D11 WARP` seems to work.
-  See <https://www.reddit.com/r/MicrosoftEdge/comments/1o2r1i2/edge_hardware_acceleration_not_working/>
 
 ## References
 
